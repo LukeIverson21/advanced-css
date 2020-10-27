@@ -1,0 +1,52 @@
+.container {
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.container2 {
+    background-color: orange;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.container:hover {
+    color: whitesmoke
+}
+
+.container2:hover {
+    color: blue;
+}
+
+
+/* @media (max-width: 600px) {
+    .container {
+        background-color: red;
+        height: 300px;
+        width: 300px;  
+    }
+    .container2 {
+        background-color: violet;
+        height: 300px;
+        width: 300px;
+    }
+} */
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    .container {
+        height: 250px;
+        width:250px;
+        background-color: yellowgreen;
+    }
+
+    .container2 {
+        height: 200px;
+        width: 300px;
+        border-radius: 8px;
+        background-color: violet;
+    }
+
+}
+
